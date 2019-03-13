@@ -1,0 +1,30 @@
+{
+  "name": "grunt-sphinx-plugin",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Kay McCormick",
+    "email": "kay@kaymccormick.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-nodeunit": "^0.3.3"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
