@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 	},
 
 	// Configuration to be run (and then tested).
-	sphinx_plugin: {
+	sphinxBuild: {
 	    default_options: {
 		options: {
 		    sourceRoot: 'test/roots/test-root',
@@ -69,7 +69,7 @@ module.exports = function(grunt) {
 
     // Whenever the "test" task is run, first clean the "tmp" dir, then run this
     // plugin's task(s), then test the result.
-    grunt.registerTask('test', ['clean', 'sphinx_plugin', 'nodeunit']);
+    grunt.registerTask('test', ['clean', 'sphinxBuild', 'nodeunit']);
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['jshint', 'test']);

@@ -17,14 +17,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-sphinx-plugin');
 ```
 
-## The "sphinx_plugin" task
+## The "sphinxBuild" task
 
 ### Overview
-In your project's Gruntfile, add a section named `sphinx_plugin` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `sphinxBuild` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  sphinx_plugin: {
+  sphinxBuild: {
     options: {
       // Task-specific options go here.
     },
@@ -56,7 +56,7 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  sphinx_plugin: {
+  sphinxBuild: {
     options: {},
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
@@ -70,7 +70,7 @@ In this example, custom options are used to do something else with whatever else
 
 ```js
 grunt.initConfig({
-  sphinx_plugin: {
+  sphinxBuild: {
     options: {
       separator: ': ',
       punctuation: ' !!!',

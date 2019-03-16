@@ -15,8 +15,7 @@ module.exports = function(grunt) {
     // Please see the Grunt documentation for more information regarding task
     // creation: http://gruntjs.com/creating-tasks
 
-    grunt.registerMultiTask('sphinx_plugin', 'Sphinx documentation builder plugin.', function() {
-	// Merge task-specific and/or target-specific options with these defaults.
+    grunt.registerMultiTask('sphinxBuild', 'Sphinx documentation builder plugin.', function() {	// Merge task-specific and/or target-specific options with these defaults.
 	var done = this.async();
 	var options = this.options({
 	});
