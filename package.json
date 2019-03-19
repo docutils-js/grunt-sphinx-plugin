@@ -26,5 +26,8 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "sphinx-build-client": "^0.2.0"
+  }
 }
