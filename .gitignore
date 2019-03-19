@@ -4,4 +4,5 @@ tmp
 node_modules
 *~
 \#*\#
-.\#*output-directory
+.\#*
+output-directory
